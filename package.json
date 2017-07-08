@@ -1,0 +1,30 @@
+{
+  "name": "papagaio-bot",
+  "version": "0.1.0",
+  "description": "Papagaio is a bird, sorry, a bot helping you to learn portuguese.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "create": "claudia create --api-module bot --region us-east-1",
+    "configure-fb": "claudia update --configure-fb-bot",
+    "deploy": "claudia update"
+  },
+  "keywords": [
+    "bot",
+    "portuguese",
+    "lesson",
+    "exercices"
+  ],
+  "author": {
+    "name": "Paul-Emmanuel Vandenburie",
+    "email": "pevandenburie@yahoo.fr"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "claudia-bot-builder": "^1.1.0"
+  },
+  "devDependencies": {
+    "claudia": "^1.4.1",
+    "mocha": "^3.3.0"
+  }
+}
